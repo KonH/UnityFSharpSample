@@ -8,4 +8,8 @@
     <Compile Include="GameLogics.fs" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy /Y &quot;$(TargetDir)$(TargetName).dll&quot; &quot;$(SolutionDir)../UnityProject/Assets/Plugins/$(TargetName).dll&quot;" />
+  </Target>
+
 </Project>
