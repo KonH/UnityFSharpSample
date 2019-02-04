@@ -1,7 +1,10 @@
+.vs
 UnityProject/Library/
 UnityProject/Temp/
-GameSolution/.vs/
 GameSolution/GameLogics/obj/
 GameSolution/ConsoleRunner/bin/
 GameSolution/ConsoleRunner/obj/
 GameSolution/GameLogics/bin/
+UnityProject/*.csproj
+UnityProject/*.sln
+UnityProject/obj/
