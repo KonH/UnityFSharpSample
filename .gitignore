@@ -1,3 +1,6 @@
 UnityProject/Library/
 GameSolution/.vs/
 GameSolution/GameLogics/obj/
+GameSolution/ConsoleRunner/bin/
+GameSolution/ConsoleRunner/obj/
+GameSolution/GameLogics/bin/
